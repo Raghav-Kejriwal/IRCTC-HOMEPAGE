@@ -1,0 +1,296 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+  }
+  
+  .navbar-left {
+    margin-right: auto;
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-photo {
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+  }
+.booking{
+    height: 600px;
+    width: 100%;
+    background-image: url('https://www.livemint.com/lm-img/img/2023/07/06/1600x900/ANI-20230529138-0_1685461514722_1688632059150.jpg');
+}
+.box{
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.first{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 3%;
+}
+.pnr{
+    width: 49%;
+    display: flex;
+    background-color: #213d77;
+    justify-content: center;
+    align-items: center;
+}
+.charts{
+    width: 49%;
+    display: flex;
+    background-color: #213d77;
+    justify-content: center;
+    align-items: center;
+}
+.nthg{
+    width: 2%;
+}
+.txt{
+    color: white;
+    align-items: center;
+}
+.second{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.spcblue{
+    color: #213d77;
+    font-weight: bolder;
+    font-size: x-large;
+}
+.spcble{
+    color: #213d77;
+}
+.third{
+    background-color: white;
+    display: flex;
+    padding-bottom: 3%;
+}
+.fourth{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3%;
+}
+.sixth{
+    background-color: white;
+    display: flex;
+    padding-bottom: 1%;
+    padding-left: 3%;
+}
+.seventh{
+    background-color: white;
+    display: flex;
+    padding-bottom: 3%;
+    padding-left: 3%;
+}
+.eighth{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+}
+.form-group{
+    margin-left: 3%;
+    margin-right: 3%;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.form-check-input{
+    color: #213d77;
+}
+.form-check-label{
+    color: #213d77;
+    font-weight: bold;
+}
+.dropdown{
+    width: 50%;
+    padding: 0%;
+    margin: 0%;
+}
+.fifth{
+    background-color: white;
+    display: flex;
+    padding-left: 3%;
+    padding-bottom: 3%;
+}
+.nospace{
+    padding: 0%;
+    margin: 0%;
+    color: #213d77;
+}
+.lowerbox{
+    margin-top: 3%;
+    background-color: white;
+    padding: 5px;
+}
+.red{
+    color: red;
+}
+.blue{
+    color: blue;
+}
+.orange{
+    background-color: orange;
+    color: white;
+    border-radius: 5%;
+    border: none;
+    font-size: large;
+}
+.green{
+    background-color: green;
+    color:white;
+    border-radius: 5%;
+    border:none;
+    font-size: large;
+}
+  h1{
+    text-align: center;
+  }
+  .up{
+    margin-bottom: 0%;
+  }
+  .down{
+    margin-top: 0%;
+  }
+  .circle{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border:2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .upperservices{
+    margin-left: 225px;
+    margin-right: 225px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .lowerservices{
+    margin-left: 225px;
+    margin-right: 225px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .inner{
+    display: flex;
+    flex-direction: column;
+  }
+  h4{
+    text-align: center;
+  }
+  .button{
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+  }
+  .button:hover {
+    background-color: #1457a7;
+    border-radius: 50%;
+  }
+  .ad1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .video{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  h1{
+    align-items: center;
+  }
+  .card{
+    border:1px solid black;
+    width: 21.5rem;
+  }
+  .card-img-top{
+    width: 21.5rem;
+  }
+  .card-body{
+    padding: 1rem;
+    background-color: white;
+  }
+  .inner-holidays{
+    display: flex;
+    justify-content: space-around;
+  }
+  .down-holidays{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .link{
+    font-weight: bold;
+  }
+  .connections{
+    display: flex;
+    margin-top: 25px;
+    flex-basis: auto;
+    background-color: purple;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .circ{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    margin: 2%;
+  }
+  .text{
+    color: white;
+    font-weight: bold;
+    font-size: large;
+  }
+  .allc{
+    display: flex;
+  }
+  .lasts{
+    background-color: rgb(20, 2, 94);
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 20px;
+    padding: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+
+  .lasts > div{
+    padding: 20px;
+    font-size: large;
+    background-color: rgb(20, 2, 94);
+  }
+  .btn1{
+    font-size: 16px;
+    font-weight: bold;
+    background-color: rgb(20, 2, 94);
+    color: white;
+    border-color: rgb(20, 2, 94);
+    width: auto;
+  }
